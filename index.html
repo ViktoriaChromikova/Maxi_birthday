@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="CSS/styles.css">
+    <title>Maxis Birthday</title>
+    
+</head>
+<body>
+    <div class= "background">
+        <div class="headlines">
+            <h1>Maxis bursdag</h1>
+            <h2>Før du får fortsette, må du svare på et spørsmål</h2>
+        </div>
+        <form id="question">
+        <fieldset>
+            <h3>Hvor gammel blir Maxi?</h3>
+            <label for="answer">Skriv in nummer</label>
+            <input type="number" name="answer" id="answer">
+            <div class="form-error" id="answerError">Det er et tall mellom 5 og 7, prøv igjen!</div>
+            <input type="submit"value="Submit form">
+        </fieldset>
+         </form>
+    </div>
+<script src="js/validate.js"></script>
+</body>
+</html>

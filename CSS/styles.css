@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Star Jedi Rounded';
+    src:url('StarJediRounded-jW3R.ttf');
+}
+body{
+    background-image: url("../CSS/Stars Background   PowerPoint Backgrounds for PowerPoint.jpeg");
+    font-family: 'Star Jedi Rounded';
+    color: yellow;
+}
+#answerError{
+    display: none;
+}
+.background{
+    text-align: center;
+}
+h1{
+ font-size: 4em;
+}
+fieldset{
+    max-width: 50%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:hover{
+    color:blueviolet;
+    font-size: 3em;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 3em;
+}
+@-webkit-keyframes fade-in {
+    0%{
+      opacity: 0;
+      top: 100px;
+    }
+    30%,
+    70% {
+      opacity: 1;
+      top: 30px;
+    }
+   
+  }
+  
+  .floating {
+    display: inline;
+    position: relative;
+    top: 20px;
+    -webkit-animation: fade-in 6s;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .container {
+    height: 100px;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .map img{
+      max-width: 400px;
+      max-height: 300px;
+  }
+  .vader img{
+      max-height: 100%;
+      max-width: 100%;
+  }
