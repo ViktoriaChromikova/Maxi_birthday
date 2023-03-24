@@ -1,11 +1,12 @@
 @font-face {
-    font-family: 'Star Jedi Rounded';
-    src:url('StarJediRounded-jW3R.ttf');
+    font-family: 'Roblox';
+    src: url('Roblox2017.ttf') format('truetype');
 }
 body{
-    background-image: url("../CSS/Stars Background   PowerPoint Backgrounds for PowerPoint.jpeg");
-    font-family: 'Star Jedi Rounded';
-    color: yellow;
+    background-image: url("../CSS/0eeeb19633422b1241f4306419a0f15f39d58de9.png");
+    background-repeat: repeat-x repeat-y;
+    font-family: 'Roblox';
+    color: red;
 }
 #answerError{
     display: none;
@@ -23,12 +24,12 @@ fieldset{
     margin-right: auto;
 }
 a:hover{
-    color:blueviolet;
+    color:green;
     font-size: 3em;
 }
 a{
     text-decoration: none;
-    color: yellow;
+    color: red;
     font-size: 3em;
 }
 @-webkit-keyframes fade-in {
