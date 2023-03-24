@@ -32,7 +32,7 @@ a{
     color: red;
     font-size: 3em;
 }
-@-webkit-keyframes fade-in {
+@keyframes fade-in {
     0%{
       opacity: 0;
       top: 100px;
@@ -49,7 +49,7 @@ a{
     display: inline;
     position: relative;
     top: 20px;
-    -webkit-animation: fade-in 6s;
+    animation: fade-in 6s;
     float: left;
     text-align: center;
     margin: 0 auto;
