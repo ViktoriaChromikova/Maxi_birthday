@@ -14,5 +14,64 @@ event.preventDefault();
   
 }
 
+function verify(input) {
+  switch(input.id){
+    case "input1":
+      return input.value === "correct answer"
+    case "input2":
+      return input.value === "correct answer"
+    case "input3":
+      return input.value === "correct answer"
+    case "input4":
+      return input.value === "correct answer"
+    case "input5":
+      return input.value === "correct answer"
+    default:
+      return false
+  }
+}
+
+function setColor(input, validity) {
+  if (validity) {
+    input.style.backgroundColor = 'green';
+    return
+  }
+  input.style.backgroundColor = 'red';
+}
+
+function testResults() {
+  inputs = []
+  input1 = document.getElementById('input1')
+  input2 = document.getElementById('input2')
+  input3 = document.getElementById('input3')
+  input4 = document.getElementById('input4')
+  input5 = document.getElementById('input5')
+  inputs.push( input1, input2, input3, input4, input5)
+
+  for (let i = 0; i < inputs.length; i++) {
+    console.log("aaa")
+    validity = verify(inputs[i])
+    setColor(inputs[i], validity)
+    if (!validity) {
+      alert ("Ikke bra jobba!");
+      return;
+    }
+  }
+  alert ("Bra jobba!");
+}
+/*
+function testResults(form) {
+  var inputValue = form.inputbox.value;
+  //alert ("You typed: " + inputValue);
+  console.log(form.value);
+  console.log(form.id);
+  if (verify(inputValue, form.id)) {
+    form.inputbox.style.backgroundColor = 'green';
+    alert ("Bra jobba!");
+    return;
+  } 
+  form.inputbox.style.backgroundColor = 'red';
+  alert ("Ikke bra jobba!");
+}*/
     
 questionForm.addEventListener("submit", checkValue);
