@@ -1,0 +1,20 @@
+<form name="myForm" action="" method="GET" id="input1">
+        <input type="text" name="inputbox" value="">
+        <input type="button" name="button" value="Click" onClick="testResults(this.form)">
+    </form>
+    <form name="myForm" action="" method="GET" id="input2">
+        <input type="text" name="inputbox" value="">
+        <input type="button" name="button" value="Click" onClick="testResults(this.form)">
+    </form>
+    <form name="myForm" action="" method="GET" id="input3">
+        <input type="text" name="inputbox" value="">
+        <input type="button" name="button" value="Click" onClick="testResults(this.form)">
+    </form>
+    <form name="myForm" action="" method="GET" id="input4">
+        <input type="text" name="inputbox" value="">
+        <input type="button" name="button" value="Click" onClick="testResults(this.form)">
+    </form>
+    <form name="myForm" action="" method="GET" id="input5">
+        <input type="text" name="inputbox" value="">
+        <input type="button" name="button" value="Click" onClick="testResults(this.form)">
+    </form>
