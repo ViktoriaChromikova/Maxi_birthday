@@ -17,15 +17,13 @@ event.preventDefault();
 function verify(input) {
   switch(input.id){
     case "input1":
-      return input.value === "correct answer"
+      return input.value === "2"
     case "input2":
-      return input.value === "correct answer"
+      return input.value === "0"
     case "input3":
-      return input.value === "correct answer"
+      return input.value === "1"
     case "input4":
-      return input.value === "correct answer"
-    case "input5":
-      return input.value === "correct answer"
+      return input.value === "6"
     default:
       return false
   }
@@ -45,15 +43,14 @@ function testResults() {
   input2 = document.getElementById('input2')
   input3 = document.getElementById('input3')
   input4 = document.getElementById('input4')
-  input5 = document.getElementById('input5')
-  inputs.push( input1, input2, input3, input4, input5)
+  inputs.push( input1, input2, input3, input4)
 
   for (let i = 0; i < inputs.length; i++) {
     console.log("aaa")
     validity = verify(inputs[i])
     setColor(inputs[i], validity)
     if (!validity) {
-      alert ("Ikke bra jobba!");
+      alert ("Prøv igjen!");
       return;
     }
   }
