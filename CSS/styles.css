@@ -3,10 +3,10 @@
     src: url('Roblox2017.ttf') format('truetype');
 }
 body{
-    background-image: url("../CSS/0eeeb19633422b1241f4306419a0f15f39d58de9.png");
+    background-image: url("../images/429942525_420578353798949_617683830643888054_n.png");
     background-repeat: repeat-x repeat-y;
     font-family: 'Roblox';
-    color: red;
+    color: rgb(4, 143, 181);
 }
 #answerError{
     display: none;
@@ -29,7 +29,7 @@ a:hover{
 }
 a{
     text-decoration: none;
-    color: red;
+    color: rgb(4, 143, 181);
     font-size: 3em;
 }
 @keyframes fade-in {
@@ -46,6 +46,7 @@ a{
   }
   
   .floating {
+    font-size: 1em;
     display: inline;
     position: relative;
     top: 20px;
@@ -55,7 +56,9 @@ a{
     margin: 0 auto;
     width: 100%;
   }
-
+.floating:hover{
+    font-size: 1em;
+}
   .container {
     height: 100px;
     width: 100%;
