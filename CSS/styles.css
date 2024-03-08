@@ -25,12 +25,13 @@ fieldset{
 }
 a:hover{
     color:green;
-    font-size: 3em;
+    font-size: 1em;
 }
 a{
     text-decoration: none;
     color: rgb(4, 143, 181);
-    font-size: 3em;
+    font-size: 1em;
+    background-color: yellow;
 }
 @keyframes fade-in {
     0%{
@@ -40,7 +41,7 @@ a{
     30%,
     70% {
       opacity: 1;
-      top: 30px;
+      top: 0px;
     }
    
   }
@@ -55,6 +56,7 @@ a{
     text-align: center;
     margin: 0 auto;
     width: 100%;
+    background-color: none;
   }
 .floating:hover{
     font-size: 1em;
