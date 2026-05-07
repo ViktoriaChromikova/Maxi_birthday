@@ -4,7 +4,7 @@ const formError = document.querySelector("#answerError");
 function checkValue() {
 event.preventDefault();
   let yourAnswer = document.querySelector("#answer").value;
-  if (isNaN(yourAnswer) || yourAnswer < 8 || yourAnswer > 8) {
+  if (isNaN(yourAnswer) || yourAnswer < 10 || yourAnswer > 10) {
     formError.style.display= "block";
   } else {
      questionForm.innerHTML += `<div class="container">
