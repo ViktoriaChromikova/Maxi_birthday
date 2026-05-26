@@ -3,16 +3,18 @@
     src: url('Roblox2017.ttf') format('truetype');
 }
 body{
-    background-image: url("../images/429942525_420578353798949_617683830643888054_n.png");
+    background-image: url("../images/Bday2\ poster\ 2.png");
+   
     background-repeat: repeat-x repeat-y;
     font-family: 'Roblox';
-    color: black;
+    color: rgb(184, 139, 227);
 }
 #answerError{
     display: none;
 }
 .background{
     text-align: center;
+    
 }
 h1{
  font-size: 4em;
@@ -79,8 +81,8 @@ a{
       max-height: 50%;
   }
   .vader img{
-      max-height: 100%;
-      max-width: 100%;
+      max-height: 50%;
+      max-width: 50%;
   }
   .inputform img{
       max-width: 70px;
