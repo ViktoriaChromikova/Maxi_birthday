@@ -4,10 +4,9 @@
 }
 body{
     background-image: url("../images/Bday2\ poster\ 2.png");
-   
     background-repeat: repeat-x repeat-y;
     font-family: 'Roblox';
-    color: rgb(184, 139, 227);
+    color: rgb(125, 13, 230);
 }
 #answerError{
     display: none;
